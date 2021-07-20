@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <title>Algo Visualiser</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="landing-page-logo" id="home">
+            <img src="icons/image.png" alt="" />
+        </div>
+        <div id="particles-js" class="header">
+            <div class="head-text">
+                <span>F</span>
+                <span>E</span>
+                <span>E</span>
+                <span>L</span>
+                <span>S</span>
+                <span>O</span>
+                <span>R</span>
+                <span>T</span>
+            </div>
+        </div>
+        <div class="content">
+            <div class="algo-card-container">
+                <h1 data-aos="fade-up" id="content-heading">Sorting Algorithms</h1>
+                <div data-aos="fade-up">
+                    <div class="algo-card" data-tilt data-tilt-scale="1.05">
+                        <div class="card-title">Bubble Sort</div>
+                        <div class="algo-card-img">
+                            <div class="gradient"></div>
+                            <img src="images/bubble-sort.png" alt="" />
+                        </div>
+                        <div class="algo-card-content" data-tilt>
+                            <button data-type="bubble-sort">Visualise</button>
+                        </div>
+                    </div>
+
+                    <div class="algo-card" data-tilt data-tilt-scale="1.05">
+                        <div class="card-title">Selection Sort</div>
+                        <div class="algo-card-img">
+                            <div class="gradient"></div>
+                            <img src="images/selection-sort.png" alt="" />
+                        </div>
+                        <div class="algo-card-content" data-tilt>
+                            <button data-type="selection-sort">Visualise</button>
+                        </div>
+                    </div>
+
+                    <div class="algo-card" data-tilt data-tilt-scale="1.05">
+                        <div class="card-title">Merge Sort</div>
+                        <div class="algo-card-img">
+                            <div class="gradient"></div>
+                            <img src="images/merge-sort.png" alt="" />
+                        </div>
+                        <div class="algo-card-content" data-tilt>
+                            <button data-type="merge-sort">Visualise</button>
+                        </div>
+                    </div>
+
+                    <div class="algo-card" data-tilt data-tilt-scale="1.05">
+                        <div class="card-title">Quick Sort</div>
+                        <div class="algo-card-img">
+                            <div class="gradient"></div>
+                            <img src="images/quick-sort.png" alt="" />
+                        </div>
+                        <div class="algo-card-content" data-tilt>
+                            <button data-type="quick-sort">Visualise</button>
+                        </div>
+                    </div>
+
+                    <div class="algo-card" data-tilt data-tilt-scale="1.05">
+                        <div class="card-title">Insertion Sort</div>
+                        <div class="algo-card-img">
+                            <div class="gradient"></div>
+                            <img src="images/insertion-sort.png" alt="" />
+                        </div>
+                        <div class="algo-card-content" data-tilt>
+                            <button data-type="insertion-sort">Visualise</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="contact">
+                Made by <a href="https://github.com/ankitkdubey20">Ankit Kumar </a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/vendors/particles.min.js"></script>
+<script src="js/vendors/app.js"></script>
+<script src="js/vendors/tilt.js"></script>
+<script src="js/script.js"></script>
+
+</html>
